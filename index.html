@@ -8,12 +8,23 @@
 </head>
 <body>
     <section>
+        <div>
+            <h2>Daily Weather Updates</h2>
+            <label for="location">Enter Location: </label>
+            <input type="text" id="location" />
+            <button id="search">Search</button>
+            <div id="unit-btns">
+                <button id="farenheit-btn">F</button>
+                <button id="celsius-btn">C</button>
+            </div>
+        </div>
+        <h2 id="location-text"></h2>
         <h4 id="description"></h4>
-        <div id="max-temp"></div>
-        <div id="min-temp"></div>
-        <div id="humidity"></div>
-        <div id="snow"></div>
-        <div id="wind-speed"></div>
+        <p id="max-temp"></p>
+        <p id="min-temp"></p>
+        <p id="humidity"></p>
+        <p id="snow"></p>
+        <p id="wind-speed"></p>
     </section>
     <script src="script.js"></script>
 </body>
