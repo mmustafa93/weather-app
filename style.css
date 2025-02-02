@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: oldlace;
+}
+
+section {
+    background-color: snow;
+    border-radius: 50px;
+    padding: 1.5rem;
+    max-width: 35%;
+}
+
+#data-display {
+    display: flex; 
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+#unit-btns {
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+button, input {
+    border: 1px solid gainsboro;
+}
+button {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+input {
+    border-radius: 10px;
+}
+    
+
+#unit-btns {
+    display: none;
+}
